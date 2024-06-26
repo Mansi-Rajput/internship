@@ -1,4 +1,6 @@
-#Task: Convert integers to floats, floats to integers, strings to integers, and vice versa
+#### Task ####
+# Convert integers to floats, floats to integers, strings to 
+# integers, and vice versa
 
 #Integer to float 
 int_num = 10

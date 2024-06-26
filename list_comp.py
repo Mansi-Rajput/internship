@@ -1,3 +1,4 @@
+#### Task 1 ####
 #list of squares from 1 to 10
 squares = [x ** 2 for x in range(1, 11)]
 print(squares)
@@ -6,6 +7,7 @@ print(squares)
 even = [x for x in range(1, 21) if x % 2 == 0]
 print(even)
 
+#### Task 2 ####
 #Define a function greet that takes a name as an argument and prints a greeting message.
 def greet(name):
     """Prints a greeting message with the name given"""
@@ -23,13 +25,15 @@ length = int(input("Enter length of the rectangle: "))
 width = int(input("Enter width of the rectangle: "))
 calculate_area(length, width)
 
+#### Task 3 ####
 #Create a lambda function to add two numbers and assign it to a variable add.
 #Use the lambda function to add two numbers and print the result.
 add = lambda a, b: a + b #lambda function
 result = add(5, 10)
 print(f"The addition of the given numbers is: {result}")
 
-#Task: Define a function sum_all that takes any number of arguments 
+#### Task 4 ####
+#Define a function sum_all that takes any number of arguments 
 #and returns their sum using *args.
 def sum_all(*args):
     return sum(args)
@@ -44,7 +48,7 @@ print(f"The sum of odd numbers is: {result2}")
 print(f"The sum of no argument is: {result3}")
 print()
 
-#Task: Define a function print_info that takes any number 
+#Define a function print_info that takes any number 
 #of keyword arguments and prints them using **kwargs.
 def print_info(**kwargs):
     for key, value in kwargs.items():

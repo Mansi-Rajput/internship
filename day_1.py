@@ -1,4 +1,6 @@
-#Task: Perform arithmetic operations, string manipulations, and boolean comparisons.
+#### Task ####
+# Perform arithmetic operations, string manipulations, 
+# and boolean comparisons.
 
 #### Integers ####
 int_a = 10

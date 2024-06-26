@@ -1,4 +1,6 @@
-#Task: Assign values to variables, perform operations with variables, and demonstrate variable reassignment.
+#### Task #### 
+# Assign values to variables, perform operations with variables, 
+# and demonstrate variable reassignment.
 
 #### varible assignment ####
 a = 8

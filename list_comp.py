@@ -1,33 +1,33 @@
-# #list of squares from 1 to 10
-# squares = [x ** 2 for x in range(1, 11)]
-# print(squares)
+#list of squares from 1 to 10
+squares = [x ** 2 for x in range(1, 11)]
+print(squares)
 
-# #list of even numbers form 1 to 20
-# even = [x for x in range(1, 21) if x % 2 == 0]
-# print(even)
+#list of even numbers form 1 to 20
+even = [x for x in range(1, 21) if x % 2 == 0]
+print(even)
 
-# #Define a function greet that takes a name as an argument and prints a greeting message.
-# def greet(name):
-#     """Prints a greeting message with the name given"""
-#     print(f"Hello {name}! Have a great day!")
+#Define a function greet that takes a name as an argument and prints a greeting message.
+def greet(name):
+    """Prints a greeting message with the name given"""
+    print(f"Hello {name}! Have a great day!")
 
-# name = input("What's your name?\n")
-# greet(name)
+name = input("What's your name?\n")
+greet(name)
 
-# #Define a function calculate_area that takes length and width as arguments and returns the area of a rectangle.
-# def calculate_area(length, width):
-#     """prints the area of the rectangle by calculating it"""
-#     print(f"The area of the rectangle is {length * width}")
+#Define a function calculate_area that takes length and width as arguments and returns the area of a rectangle.
+def calculate_area(length, width):
+    """prints the area of the rectangle by calculating it"""
+    print(f"The area of the rectangle is {length * width}")
 
-# length = int(input("Enter length of the rectangle: "))
-# width = int(input("Enter width of the rectangle: "))
-# calculate_area(length, width)
+length = int(input("Enter length of the rectangle: "))
+width = int(input("Enter width of the rectangle: "))
+calculate_area(length, width)
 
-# #Create a lambda function to add two numbers and assign it to a variable add.
-# #Use the lambda function to add two numbers and print the result.
-# add = lambda a, b: a + b #lambda function
-# result = add(5, 10)
-# print(f"The addition of the given numbers is: {result}")
+#Create a lambda function to add two numbers and assign it to a variable add.
+#Use the lambda function to add two numbers and print the result.
+add = lambda a, b: a + b #lambda function
+result = add(5, 10)
+print(f"The addition of the given numbers is: {result}")
 
 #Task: Define a function sum_all that takes any number of arguments 
 #and returns their sum using *args.

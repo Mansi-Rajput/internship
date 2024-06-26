@@ -1,4 +1,5 @@
-# Challenge: Write a function print_even_numbers that takes a limit as an argument.
+#### Challenge ####
+# Write a function print_even_numbers that takes a limit as an argument.
 # Use a for loop to print all even numbers up to the limit.
 
 def print_even_numbers(limit):
@@ -10,8 +11,9 @@ def print_even_numbers(limit):
 limit = int(input("Enter your limit for even numbers: "))
 print_even_numbers(limit)
 
-##Challenge: Write another function countdown that takes a starting number as an argument.
-##Use a while loop to print a countdown from the starting number to 0.
+#### Challenge ####
+# Write another function countdown that takes a starting number as an argument.
+# Use a while loop to print a countdown from the starting number to 0.
 def countdown(start_num):
     """Count the numbers from the starting number to 0"""
     current_num = start_num

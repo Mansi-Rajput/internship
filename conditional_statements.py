@@ -1,4 +1,5 @@
 def grade_classifier(score):
+    """function used to give grades based on the score provided as input"""
     if score >= 85:
         print(f"Your score is {score}, So you got an 'A'.")
     elif score >= 70: 

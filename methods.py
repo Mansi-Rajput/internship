@@ -2,7 +2,6 @@
 # Define a class Book with attributes title and author.
 # Create an instance method display_info that prints the book's title and author.
 # Instantiate the Book class and call the display_info method.
-
 class Book:
     def __init__(self, title, author):
         """Initializes instance variables"""
@@ -33,3 +32,52 @@ class Library:
 print(f"Total books before update: {Library.total_books}")
 Library.update_total_books(170)
 print(f"Total books after update: {Library.total_books}")
+
+#### Task 3 ####
+# define a class MathUtils with a static method add_numbers that takes two numbers and returns their sum.
+# Call the static method without creating an instance of the class.
+class MathUtils:
+
+    @staticmethod
+    def add_numbers(num1, num2):
+        """Static method for returning the addtion of two numbers"""
+        return num1 + num2
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+#Calling the static method without creating an instance of the class   
+result = MathUtils.add_numbers(num1, num2)
+
+print(f"The sum is {result}")
+
+#### Task 4 ####
+# Define a class Person with a private attribute _age.
+# Create a property method age with a getter and setter to access and modify the _age attribute.
+# Instantiate the Person class, set the age, and print it.
+class Person:
+    def __init__(self, age):
+        """Initializes variables"""
+        self.__age = age
+
+    @property
+    def age(self):
+        """The @property method is the getter method for age attribute"""
+        return self.__age
+    
+    @age.setter
+    def age(self, value):
+        """Setter method for setting the value of age attribute"""
+        if value < 0:
+            print("ValueError: Age cannot be negative")
+            self.__age = None
+        else:
+            self.__age = value
+
+# Initial value
+person = Person(5)
+print(f"Initial Value: {person.age}")
+
+# Setting age using the setter method
+person.age = -1
+print(f"Updated Value: {person.age}")

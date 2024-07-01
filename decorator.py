@@ -1,3 +1,7 @@
+#### TASK ####
+# Write a decorator time_decorator that measures the time taken by a function to execute.
+# Use the decorator on a function slow_function that sleeps for 2 seconds and then prints "Function complete".
+
 import time
 
 def time_decorator(func):

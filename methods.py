@@ -30,6 +30,7 @@ class Library:
 
 # Modifying the class attribute
 print(f"Total books before update: {Library.total_books}")
+update = int(input(""))
 Library.update_total_books(170)
 print(f"Total books after update: {Library.total_books}")
 

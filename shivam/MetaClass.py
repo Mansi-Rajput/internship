@@ -5,7 +5,7 @@ class SingletonMeta(object):
   def getFtype(self):
       return self.ftype #Return the stored type
 
-def mainz():
+def main():
     fType = SingletonMeta(ftype = "Doubleton") #Create a SingletonMeta instance
     print(fType.getFtype())
 

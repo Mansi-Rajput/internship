@@ -1,6 +1,8 @@
 import random
 
 class Employee:
+    """This class represents an employee with attributes like ID,name etc
+    """
     def __init__(self, emp_id, name, designation, salary):
         self.emp_id = emp_id
         self.name = name
@@ -12,6 +14,9 @@ class Employee:
         print(f"Name: {self.name}")
         print(f"Designation: {self.designation}")
         print(f"Salary: {self.salary}")
+    """
+        Initializes an Employee object with the given attributes.
+        """
 
 class EmployeeManagementSystem:
     def __init__(self):
@@ -43,7 +48,7 @@ class EmployeeManagementSystem:
 
 ems = EmployeeManagementSystem()
 ems.read_from_file("employee1.txt")
-
+#Main program loop
 while True:
     print("*"*50)
     print("1. Add New Employee")
